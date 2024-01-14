@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #a9c6ed, #ac8ac4);
+  }
+  
+  .card {
+    background: #ffefe6;
+    border-radius: 100px;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    animation: slideIn 1s ease;
+    max-width: 800px; 
+    font-family: 'Nanum Gothic';
+  }
+  
+  img {
+    width: 175px;
+    height: 175px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .text {
+    p {color: #cb0202; }
+    font-size: 12px;
+  }
